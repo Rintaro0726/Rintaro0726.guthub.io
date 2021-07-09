@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/ico/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/ico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" href="assets/img/ico/apple-touch-icon-57x57.png">
+
+    <title>Rintaro's portfolio</title>    
+
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/plugins.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/pe-icons.css" rel="stylesheet">
+
+    <!-- jqueryの読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> 
+    
+    <!-- Custom JS -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/swiper@4.5.1/dist/css/swiper.min.css"/>
+    <script src="//cdn.jsdelivr.net/npm/swiper@4.5.1/dist/js/swiper.min.js"></script>
+    <!-- ＃リンクのスムーススクロール -->
+    <script>
+      $(function(){
+        // #で始まるリンクをクリックしたら実行されます
+        $('a[href^="#"]').click(function() {
+          // スクロールの速度
+          let speed = 400; // ミリ秒で記述
+          let href= $(this).attr("href");
+          let target = $(href == "#" || href == "" ? 'html' : href);
+          let position = target.offset().top;
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
+          return false;
+        });
+      });
+    </script>
+
+    
+    
+    
+        
+
+</head>
+
+<body id="page-top" class="index">
+<div id="header">
+    <class="master-wrapper">
+
+        <div class="preloader">
+            <div class="preloader-img">
+                <span class="loading-animation animate-flicker"><img src="assets/img/loading.GIF" alt="loading"/></span>
+            </div>
+        </div>
+        <div id="sec1"></div>
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top fadeInDown" data-wow-delay="0.5s">
+            <div class="top-bar smoothie hidden-xs">
+                <div class="container">
+                    <div class="clearfix">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="main-navigation">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#sec1" class="">Home</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#sec2" class="" data-hover="dropdown" data-toggle="dropdown">Profile </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#sec3" class="" data-hover="dropdown" data-toggle="dropdown">Services </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle " data-hover="dropdown" data-toggle="dropdown">Blog</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="" class="dropdown-toggle " data-hover="dropdown" data-toggle="dropdown">Portfolio<span class="pe-7s-angle-down"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="footer-1.html">Portfolio 1</a></li>
+                                <li><a href="footer-2.html">Portfolio 2</a></li>
+                                <li><a href="footer-3.html">Portfolio 3</a></li>
+                                <li><a href="footer-4.html">Coming soon</a></li>
+                                
+                            </ul>
+                        </li>
+
+                        
+                    </ul>
+                </div>
+                
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+
+        <!-- Header -->
+    
+        <header id="" class="dark-wrapper backstretched background no-overlay swiper-container">
+            <div class="container vertical-center swiper-wrapper">
+                    
+                          <!-- Additional required wrapper -->
+                           <div class="swiper-slide" style="background-image: url('assets/img/bg/bg1.jpg');">
+                            <div class="intro-text vertical-center text-left smoothie">
+                                <div class="intro-heading wow fadeIn heading-font" data-wow-delay="0.2s">Rintaro's Portforio</div> 
+                                <div class="intro-sub-heading wow fadeIn secondary-font" data-wow-delay="0.4s">Take a look our <span class="rotate"> home pages, portfolio items, blog examples</span></div>
+                            </div>
+                           </div>
+                           <div class="swiper-slide" style="background-image: url('assets/img/bg/bg2.jpg');">
+                            <div class="intro-text vertical-center text-left smoothie">
+                                <div class="intro-heading wow fadeIn heading-font" data-wow-delay="0.2s">Rintaro's Portforio</div> 
+                                <div class="intro-sub-heading wow fadeIn secondary-font" data-wow-delay="0.4s">Take a look our <span class="rotate"> home pages, portfolio items, blog examples</span></div>
+                            </div>
+                           </div>
+                           <div class="swiper-slide" style="background-image: url('assets/img/bg/bg3.jpg');">
+                            <div class="intro-text vertical-center text-left smoothie">
+                                <div class="intro-heading wow fadeIn heading-font" data-wow-delay="0.2s">Rintaro's Portforio</div> 
+                                <div class="intro-sub-heading wow fadeIn secondary-font" data-wow-delay="0.4s">Take a look our <span class="rotate"> home pages, portfolio items, blog examples</span></div>
+                            </div>
+                           </div>    
+            </div>
+        </header> 
+</div>              
+        <!--profile-->
+    <div id="sec2">
+        <div class="profile_section" style="background-image: url(assets/img/profile/6.jpg); background-size: cover;">           
+            <div class="portfolio_title profile_title animation animated box fadein ">
+              <span class="glyphicon glyphicon-user" style="letter-spacing:5px;"></span> <p>About Me</p>
+            </div>
+          
+            <div class="profile_image flexbox1 animation animated box fadein ">
+              <img src="assets/img/profile/8.jpeg" alt="myprofile">
+            </div>
+          
+            <div class="sub_title animation animated box fadein ">
+              <span class="glyphicon glyphicon-apple" style="letter-spacing:10px;"></span> <p>Profile</p>
+            </div>
+            <div class="introduction_text animation animated box fadein ">
+              <p>
+              初めまして。Web制作フリーランスの<span style="font-weight: bold">Rintaro</span>と申します。<br><br>
+              お客様の<span style="font-weight: bold; color:rgb(229, 255, 0);">「こんなサイトを作りたい！」</span>という想いに沿ったサイト制作、提案をいたします。<br><br>
+              「<span style="font-weight: bold; color:rgb(229, 255, 0);">質</span>」と「<span style="font-weight:bold; color:rgb(229, 255, 0);">スピード</span>」を重視することで、期待以上のものを提供させていただきます。<br><br>
+              また、お客様に寄り添った<span style="font-weight:bold;color:rgb(229, 255, 0);">丁寧なヒアリングと価格提案</span>を心がけ、
+              <span style="font-weight:bold;color:rgb(229, 255, 0);">最後まで責任を持って</span>、仕事に取り組ませていただきます。<br><br>
+              稼働可能時間は<span style="font-weight: bold; color:rgb(229, 255, 0);">１ヶ月おおよそ480時間。</span>レスポンス対応は遅くても12時間以内にいたします。
+              </p>
+            </div>
+        </div>
+    </div>   
+        <section class="white-bg">
+            <div class="section-inner masonry-portfolio container demo-selector" data-masonry-cols="4">
+                <div>
+                    <h1>WORKS</h1>
+                    <div>
+                        <ul class="masonry-portfolio-items isotope list-unstyled">
+                            <li class="col-sm-3 col-xs-6 masonry-portfolio-item apps isotope-item mb30">
+                                <div class="hover-item">
+                                    <img src="assets/img/homepages/gaiachannel.jpg" class="img-responsive smoothie" alt="">
+                                    <div class="overlay-item-caption smoothie"></div>
+                                    <div class="hover-item-caption smoothie">
+                                        <div class="vertical-center smoothie">
+                                            <h3 class="smoothie mb30"><a href="index-agency-1.html" title="view project">Portforio 1<br>~オリジナル掲示板サイト~</a></h3>
+                                            <a href="http://127.0.0.1:5503/" class="smoothie btn btn-primary">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-sm-3 col-xs-6 masonry-portfolio-item apps isotope-item mb30">
+                                <div class="hover-item">
+                                    <img src="assets/img/homepages/rin-td-log.com_(macbook air) (1).png" class="img-responsive smoothie" alt="">
+                                    <div class="overlay-item-caption smoothie"></div>
+                                    <div class="hover-item-caption smoothie">
+                                        <div class="vertical-center smoothie">
+                                            <h3 class="smoothie mb30"><a href="index-blog-2.html" title="view project">~Blog~<br><br>snow monkeyを使用しています。建設中...</a></h3>
+                                            <a href="https://rin-td-log.com/" class="smoothie btn btn-primary">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-sm-3 col-xs-6 masonry-portfolio-item apps isotope-item mb30">
+                                <div class="hover-item">
+                                    <img src="assets/img/homepages/WILDMAC.jpg" class="img-responsive smoothie" alt="">
+                                    <div class="overlay-item-caption smoothie"></div>
+                                    <div class="hover-item-caption smoothie">
+                                        <div class="vertical-center smoothie">
+                                            <h3 class="smoothie mb30"><a href="index-corporate-1.html" title="view project">Portforio 2<br>~架空会社のオリジナルサイト~</a></h3>
+                                            <a href="http://127.0.0.1:5502/index.html" class="smoothie btn btn-primary">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-sm-3 col-xs-6 masonry-portfolio-item apps isotope-item mb30">
+                                <div class="hover-item">
+                                    <img src="" class="img-responsive smoothie" alt="">
+                                    <div class="overlay-item-caption smoothie"></div>
+                                    <div class="hover-item-caption smoothie">
+                                        <div class="vertical-center smoothie">
+                                            <h3 class="smoothie mb30"><a href="index-landing-2.html" title="view project">Coming-soon</a></h3>
+                                            <a href="index-agency-1.html" class="smoothie btn btn-primary">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-sm-3 col-xs-6 masonry-portfolio-item apps isotope-item mb30">
+                                <div class="hover-item">
+                                    <img src="assets/img/homepages/127.0.0.1_5501_(macbook air).png" class="img-responsive smoothie" alt="">
+                                    <div class="overlay-item-caption smoothie"></div>
+                                    <div class="hover-item-caption smoothie">
+                                        <div class="vertical-center smoothie">
+                                            <h3 class="smoothie mb30"><a href="index-portfoio-1.html" title="view project">Portfolio 3</a></h3>
+                                            <a href="http://127.0.0.1:5501/" class="smoothie btn btn-primary">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skill Bar -->
+        <div id="habilidades" class="habilidades" style="background-image:url(assets/img/profile/7.jpg);">
+
+            <div class="habilidades_contenedor">
+                <h2>SKILLS</h2>
+                <div id="codeconSkills">
+                <div class="codeconSkillbar">
+                        <div id="" class="skillBar" skill-percentage="93%" skill-color="#ccdb38"> 
+                            <span class="codeconSkillArea ">HTML5</span>
+                            <span class="PercentText ">93%</span>
+                        </div>
+                    </div>
+                <div class="codeconSkillbar">
+                    <div id="" class="skillBar" skill-percentage="90%" skill-color="#02a8f3">
+                        <span class="codeconSkillArea">CSS3</span>
+                        <span class="PercentText">90%</span>
+        
+                    </div>
+        
+                    </div>
+                <div class="codeconSkillbar">
+                    <div id="" class="skillBar" skill-percentage="85%" skill-color="#fe5621">
+                        <span class="codeconSkillArea ">jquery</span>
+                        <span class="PercentText">85%</span>
+                    </div>
+        
+                </div>
+                <div class="codeconSkillbar">
+                    <div id="" class="skillBar" skill-percentage="70%" skill-color="#785447">
+                        <span class="codeconSkillArea">javascript</span>
+                        <span class="PercentText ">70%</span>
+        
+                    </div>
+                </div>
+                
+                <div class="codeconSkillbar">
+                    <div id="" class="skillBar" skill-percentage="30%" skill-color="#e81d62">
+                        <span class="codeconSkillArea">Webデザイン</span>
+                        <span class="PercentText ">30%</span>
+        
+                    </div>
+                </div>
+                
+                <div class="codeconSkillbar">
+                    <div id="" class="skillBar" skill-percentage="75%" skill-color="#5f7c8a">
+                        <span class="codeconSkillArea">wordpress</span>
+                        <span class="PercentText ">75%</span>
+        
+                    </div>
+                </div>
+        
+        
+                    </div>
+                </div>
+            
+                </div>
+                
+        
+        </section>
+      <!-- Service -->   
+    <div id="sec3">
+        <div class="service_section" style="background-image:url(assets/img/index/anton-maksimov-juvnsky-MSzGw5V0ui8-unsplash.jpg) ;">
+            <div class="portfolio_title skill_title">
+              <h1>Services</h1>
+            </div>
+            
+            <div class="service animation fadein fadeInUp">              
+              <div class="service_item flex-item">
+                <div class="service_image">
+                  <img src="assets/img/index/coding.jpg" alt="coding">
+                </div>
+                <div class="sub_title">
+                  <p>コーディング</p>
+                </div>
+            
+                <div class="service_content">
+                  LPやコーポレートサイト、ブログなど、
+                  目的に応じた適切なコーディングを行います(レスポンシブ対応可)。また、軽微なコードの修正などにも対応しています。<br><br>
+                  【料金目安】<br>
+                  コード修正: ¥10,000~/1p<br>
+                  LP制作: ¥20,000~/1p<br>
+                </div>
+              </div>
+            
+              <div class="service_item flex-item">
+                <div class="service_image">
+                  <img src="assets/img/index/webdesign.jpg" alt="web design">
+                </div>
+                <div class="sub_title">
+                  <p>Webデザイン</p>
+                </div>
+                <div class="service_content">
+                  ヒアリングにより、お客様のご要望に沿ったデザインを的確に把握し作成致します。
+                  ユーザーの使いやすさを重要視した設計を行い、ご期待に沿えるご提案を提供いたします。<br><br>
+                  【料金目安】<br>
+                  LP制作: ¥30,000~/1p<br>
+                  コーポレートサイト (10p以下): ¥80,000~<br>
+                </div>
+              </div>
+            
+                <div class="service_item flex-item">
+                  <div class="service_image">
+                    <img src="assets/img/index/wordpress.png" alt="wordpress">
+                  </div>
+                  <div class="sub_title">
+                    <p>Wordpress</p>
+                  </div>
+                  <div class="service_content">
+                    コーポレートサイトや個人ブログなどのWordPressサイトの構築や既存サイトのWordPress移行、コードの修正に対応しております。
+                    <br><br>
+                    【料金目安】<br>
+                    Wordpress移行: ¥100,000~<br>
+                    Wordpress制作: ¥200,000~<br>
+                  </div>
+                </div>                
+                </div>
+                <div class="service_attention">
+                    <p style="font-size:18px; text-align: center;">※正式なお見積もりは、別途ご相談させていただきます。</p>
+              </div>
+            
+            </div>
+    </div>
+        <!-- Footer -->
+        <div id="footer-wrapper" class="footer-image-bg" style="background-image: url(assets/img/index/background.jpg);">
+            <section class="transparent-wrapper">
+                <div class="section-inner">
+                    <div class="container">
+                        <div class="contact">
+                            <h1>Contact</h1>
+                            <p>お問い合わせはこちら</p>
+                            <div class="icons  text-center">                               
+                                <ul class="icon ">
+                                    <li>
+                                        <a href="https://twitter.com/RINTARO27858677"><i class="fa fa-twitter"></i></a>
+                                    </li>                               
+                                    <li>
+                                        <a href="https://www.facebook.com/profile.php?id=100023287207150"><i class="fa fa-facebook"></i></a>
+                                    </li>                      
+                                </ul>
+                            </div>  
+                            <h3>お気軽にお問い合わせ ・ご相談ください。<br>24時間以内に必ずご返信いたします。</h3> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>    
+
+            <footer class="white-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 text-right match-height">
+                            <div class="vertical-center">
+                                <span class="copyright">Copyright 2021. Designed by Rintaro Portfolio All Rights Reserved.</span>
+                            </div>
+                        </div>                      
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+    
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="assets/js/init.js"></script>
+    <script src="js/skill.bars.jquery.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+
+        $(document).ready(function(){
+        　$(window).on('scroll', function () {  
+            $('.skillbar').skillBars({
+                from: 0,
+                speed: 10000, 
+                interval: 100,
+                decimals: 0,
+            });
+        }); 
+        });
+        
+        </script>
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+        'use strict';
+        jQuery('#headerwrap').backstretch([
+            "assets/img/bg/bg1.jpg",
+            "assets/img/bg/bg2.jpg",
+            "assets/img/bg/bg3.jpg"
+        ], {
+            duration: 8000,
+            fade: 500
+        });
+    });
+    </script>
+
+</body>
+
+</html>
